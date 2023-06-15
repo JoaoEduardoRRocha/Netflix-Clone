@@ -1,0 +1,42 @@
+header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: transparent;
+    transition: all ease 0.5s;
+
+    height: 6rem;
+    
+}
+
+header.black {
+    background-color: black;
+}
+
+.icon--netflix {
+    width: 15rem;
+    padding: 1rem;
+}
+
+.header--user {
+    padding: 1rem;
+}
+
+.icon--user {
+    width: 4.5rem;
+    border-radius: 0.5rem;
+}
+
+@media (max-width: 760px) {
+    .icon--netflix {
+        width: 10rem;
+        padding: 1rem;
+    }
+}
